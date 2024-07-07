@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="client_session.cpp" />
+    <ClCompile Include="crypto_wrapper_empty.cpp" />
+    <ClCompile Include="crypto_wrapper_mbedtls.cpp" />
+    <ClCompile Include="crypto_wrapper_openssl.cpp" />
+    <ClCompile Include="eliza.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="server_session.cpp" />
+    <ClCompile Include="session.cpp" />
+    <ClCompile Include="sockets.cpp" />
+    <ClCompile Include="types.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h" />
+    <ClInclude Include="client_session.h" />
+    <ClInclude Include="crypto_wrapper.h" />
+    <ClInclude Include="eliza.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="server_session.h" />
+    <ClInclude Include="session.h" />
+    <ClInclude Include="session_internals.h" />
+    <ClInclude Include="sockets.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+</Project>
