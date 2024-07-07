@@ -1,6 +1,6 @@
 For server:
-udp_party -port 60000 -key alice.key -pwd alice -cert alice.crt -root rootCA.crt -peer Bob.com
+.\udp_party.exe -port 6000 -key ..\..\certificates\alice.key -pwd securepassword -cert ..\..\certificates\alice.crt  -root ..\..\certificates\rootCA.crt -peer BOB
 
 
 For client:
-udp_party -ip 127.0.0.1 -port 60000 -key bob.key -pwd bobkey -cert bob.crt -root rootCA.crt -peer Alice.com
+.\udp_party.exe -ip 127.0.0.1 -port 6000 -key ..\..\certificates\bob.key -pwd securepassword -cert ..\..\certificates\bob.crt -root ..\..\certificates\rootCA.crt -peer ALICE
