@@ -28,6 +28,7 @@ building a crypto wrapper around a udp client/server communication to encrypt me
 
 # Command-line arguments to run `udp_party` project (provided in `params.txt`)
 
+- build project using `ctrl+shift+b`.
 - Navigate to folder where `udp_party.exe` is located. Usually it is `(projectDir)/x64/Debug/`.
 - Open two terminals in this folder for client and server.
 - for server: `.\udp_party.exe -port 6000 -key ..\..\certificates\alice.key -pwd securepassword -cert ..\..\certificates\alice.crt  -root ..\..\certificates\rootCA.crt -peer BOB`.
