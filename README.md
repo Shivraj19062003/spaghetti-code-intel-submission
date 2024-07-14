@@ -4,7 +4,7 @@ building a crypto wrapper around a udp client/server communication to encrypt me
 
 # Links for demonstration video and presentation
 
-- [video link]()
+- [video link](https://drive.google.com/file/d/12g3J72CyZoSeYFr78rvzf0ew1j3GEZK1/view?usp=sharing)
 - [presentation link]()
 
 # Prerequisites
